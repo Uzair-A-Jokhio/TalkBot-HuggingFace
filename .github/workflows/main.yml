@@ -1,0 +1,23 @@
+name: Sync to Hugging Face Hub
+on:
+  push:
+    branches: [main]
+
+  workflow_dispatch:
+
+jobs:
+  sync-to-hub:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Add remote
+        env:
+          HG: ${{ secrets.HG }}
+        run: git remote add space https://Uzair-JK:$HG@huggingface.co/spaces/Uzair-JK/TalkBot
+      - name: Push to Hub
+        env:
+          HG: ${{ secrets.HG }}
+        run: git push --force https://Uzair-JK:$HG@huggingface.co/spaces/Uzair-JK/TalkBot main
+      
