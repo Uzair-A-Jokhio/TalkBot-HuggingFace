@@ -1,10 +1,12 @@
 import gradio as gr
 from huggingface_hub import InferenceClient
+import os
 
 """
 For more information on `huggingface_hub` Inference API support, please check the docs: https://huggingface.co/docs/huggingface_hub/v0.22.2/en/guides/inference
 """
-client = InferenceClient("mistralai/Mistral-7B-Instruct-v0.1")
+hf_token = os.getenv("HG")
+client = InferenceClient("mistralai/Mistral-7B-Instruct-v0.1", token=hf_token)
 
 
 def respond(
