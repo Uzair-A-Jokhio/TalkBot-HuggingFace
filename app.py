@@ -4,7 +4,7 @@ from huggingface_hub import InferenceClient
 """
 For more information on `huggingface_hub` Inference API support, please check the docs: https://huggingface.co/docs/huggingface_hub/v0.22.2/en/guides/inference
 """
-client = InferenceClient("HuggingFaceH4/zephyr-7b-beta")
+client = InferenceClient("mistralai/Mistral-7B-Instruct-v0.1")
 
 
 def respond(
