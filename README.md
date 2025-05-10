@@ -1,3 +1,6 @@
+## TalkBot using HuggingFace spaces
+[![Sync to Hugging Face Hub](https://github.com/Uzair-A-Jokhio/TalkBot-HuggingFace/actions/workflows/main.yml/badge.svg)](https://github.com/Uzair-A-Jokhio/TalkBot-HuggingFace/actions/workflows/main.yml)
+
 ---
 title: TalkBot
 emoji: 💬
