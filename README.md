@@ -10,4 +10,7 @@ pinned: false
 license: mit
 ---
 
-An example chatbot using [Gradio](https://gradio.app), [`huggingface_hub`](https://huggingface.co/docs/huggingface_hub/v0.22.2/en/index), and the [Hugging Face Inference API](https://huggingface.co/docs/api-inference/index).
+## TalkBot using HuggingFace spaces
+[![Sync to Hugging Face Hub](https://github.com/Uzair-A-Jokhio/TalkBot-HuggingFace/actions/workflows/main.yml/badge.svg)](https://github.com/Uzair-A-Jokhio/TalkBot-HuggingFace/actions/workflows/main.yml)
+
+[Test out the Talkbot ](https://huggingface.co/spaces/Uzair-JK/TalkBot)
